@@ -11,8 +11,8 @@ class App extends StatelessWidget {
     return GetMaterialApp(
       title: 'FacilPME',
       debugShowCheckedModeBanner: false,
-      //initialRoute: FirebaseAuth.instance.currentUser != null ? '/pagemenu' : '/areausuario',
-      initialRoute: '/pagestart',
+      //initialRoute: '/pagestart',
+      initialRoute: '/homescreen',
       theme: Facilpme.theme,
       darkTheme: Facilpme.darkTheme,
       getPages: CustomGetPages,
